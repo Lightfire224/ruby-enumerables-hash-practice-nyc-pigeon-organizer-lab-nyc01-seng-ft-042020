@@ -1,4 +1,4 @@
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
     hash = {}
     data.each do |test, hash|
         hash.each do |features, array|
