@@ -1,5 +1,5 @@
-def nyc_pigeon_organizer(data)
-  new_hash = {}
+def nyc_pigeon_organizer(pigeon_data)
+  hash = {}
   data.each do |property, hash|
     hash.each do |attribute, array|
       array.each do |name|
